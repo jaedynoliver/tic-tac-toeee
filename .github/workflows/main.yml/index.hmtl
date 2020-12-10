@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico">
+    <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.3, maximum-scale=1.3, minimum-scale=1.3">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic-Tac-Toe</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title"> <i>TIC</i><i>TAC</i><i> TOE</i></h1>
+    <div class="status-action">
+      <div class="status">× is next FIGHT</div>
+      <div class="status"> o is planning their next move</div>
+      <div class="reset">STARTO OVER</div>
+    </div>
+    <div class="game-grid">
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+      <div class="game-cell"></div>
+    </div>
+  </div>
+  <script src="indexx.js"></script>
+</body>
+</html>
